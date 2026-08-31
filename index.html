@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website">
+    <title>Your Name | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span>A</span><span>C</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                ☀️
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <p class="eyebrow">HELLO, I'M</p>
+
+                    <h1>
+                        Althea<span>Carillo</span>
+                    </h1>
+
+                    <h2>
+                        Second Year and a Junior Web Developer 
+                    </h2>
+
+                    <p class="hero-description">
+                        I love creating modern, responsive websites
+                         that are easy to use and enjoyable to explore.
+                          I turn ideas into simple, meaningful digital experiences that 
+                          look great and work smoothly on any device.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="https://www.facebook.com/althea.carillo.1232" aria-label="LinkedIn">Facebook</a>
+                        <a href="https://www.instagram.com/definitelytheeea?igsi=ZXU4YnR2MjVzeHhz" aria-label="Instagram">Instagram</a>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image reveal">
+
+                    <div class="profile-card">
+
+                       <div class="profile-circle">
+                            <img src="image/AC.jpg" alt="Your Name">
+                        </div>
+
+                        <div class="floating-card card-one">
+                            <span>💻</span>
+                            HTML / CSS
+                        </div>
+
+                        <div class="floating-card card-two">
+                            <span>⚡</span>
+                            JavaScript
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text reveal">
+
+                        <p>
+                            I'm a passionate web developer who enjoys building
+                            beautiful and functional websites.
+                        </p>
+
+                        <p>
+                            I focus on creating clean interfaces, responsive
+                            layouts, and enjoyable user experiences. I'm always
+                            learning new technologies and looking for exciting
+                            projects to work on.
+                        </p>
+
+                        <p>
+                            When I'm not coding, I enjoy exploring new ideas,
+                            learning new skills, and working on creative projects.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-stats reveal">
+
+                        <div class="stat">
+                            <strong>10+</strong>
+                            <span>Projects</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>2+</strong>
+                            <span>Years Learning</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>Passion</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>My <span>Skills</span></h2>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Semantic and accessible website structure.</p>
+
+                        <div class="progress">
+                            <span style="width: 95%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Responsive layouts, animations and modern UI.</p>
+
+                        <div class="progress">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web experiences.</p>
+
+                        <div class="progress">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Websites that work beautifully on every screen.</p>
+
+                        <div class="progress">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY RECENT WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image project-one">
+                            <span>PROJECT 01</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>Modern Landing Page</h3>
+
+                            <p>
+                                A clean and responsive landing page designed
+                                for a modern digital product.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="onepagelove.com">Visit We   ↗</a>
+                                <a href="onepagelove.com">GitHub ↗</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image project-two">
+                            <span>PROJECT 02</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+
+                            <h3>Weather Dashboard</h3>
+
+                            <p>
+                                An interactive weather application displaying
+                                real-time weather information.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="#">Live Demo ↗</a>
+                                <a href="#">GitHub ↗</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image project-three">
+                            <span>PROJECT 03</span>
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+
+                            <h3>Task Manager</h3>
+
+                            <p>
+                                A simple productivity application for creating
+                                and managing daily tasks.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="#">Live Demo ↗</a>
+                                <a href="#">GitHub ↗</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Experience -->
+        <section class="section section-alt" id="experience">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY JOURNEY</p>
+                    <h2>Experience & <span>Education</span></h2>
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">
+                                2026 — Present
+                            </span>
+
+                            <h3>Second year College-BSIT</h3>
+                            <h4>CPSU</h4>
+
+                            <p>
+                                Developing responsive websites and
+                                implementing interactive front-end features.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">
+                                2025 — 2026
+                            </span>
+
+                            <h3>Bachelor of Science in Information technology</h3>
+                            <h4>Central Philippines State University</h4>
+
+                            <p>
+                                Studied web development, programming,
+                                UI design and database fundamentals.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">
+                                2024 — 2025
+                            </span>
+
+                            <h3>Humss</h3>
+                            <h4>Studying in Sinior High School</h4>
+
+                            <p>
+                                Starting getting curious about programing 
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">LET'S WORK TOGETHER</p>
+                    <h2>Get In <span>Touch</span></h2>
+
+                    <p>
+                        Have a project in mind? I'd love to hear about it.
+                    </p>
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+
+                        <div class="contact-item">
+                            <span></span>
+                            <div>
+                                <h3>Email</h3>
+                                <p>Althea72747@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span></span>
+                            <div>
+                                <h3>Location</h3>
+                                <p>San Carlos City , Negros Occ.</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span></span>
+                            <div>
+                                <h3>Available For</h3>
+                                <p>Freelance & Full-time Work</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <form class="contact-form reveal" id="contactForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Your name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="@gmail.com"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                placeholder="Project subject"
+                                required
+                            >
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                rows="6"
+                                placeholder="Tell me about your project..."
+                                required
+                            ></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message →
+                        </button>
+
+                        <p class="form-message" id="formMessage"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                <span>A</span><span>C</span>
+            </a>
+
+            <p>
+    © 2026
+    <a href="https://github.com/yourusername" target="_blank">
+        AltheaCarillo_Estilo
+    </a>
+    . All rights reserved.
+</p>
+
+            <a href="#home" class="back-top">
+                ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
